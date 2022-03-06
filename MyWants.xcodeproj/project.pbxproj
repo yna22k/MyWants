@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94F90BB27D3CE0D0037FC98 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F90BA27D3CE0D0037FC98 /* DetailViewController.swift */; };
+		C94F90C027D504E50037FC98 /* BoughtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F90BE27D504E50037FC98 /* BoughtViewController.swift */; };
+		C94F90C327D508370037FC98 /* BoughtItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F90C227D508370037FC98 /* BoughtItem.swift */; };
 		C99213ED27D1EB0D00C5A564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99213EC27D1EB0D00C5A564 /* AppDelegate.swift */; };
 		C99213EF27D1EB0D00C5A564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99213EE27D1EB0D00C5A564 /* SceneDelegate.swift */; };
 		C99213F127D1EB0D00C5A564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99213F027D1EB0D00C5A564 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C94F90BA27D3CE0D0037FC98 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C94F90BE27D504E50037FC98 /* BoughtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoughtViewController.swift; sourceTree = "<group>"; };
+		C94F90C227D508370037FC98 /* BoughtItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoughtItem.swift; sourceTree = "<group>"; };
 		C99213E927D1EB0D00C5A564 /* MyWants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99213EC27D1EB0D00C5A564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99213EE27D1EB0D00C5A564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,11 +117,14 @@
 				C99213EE27D1EB0D00C5A564 /* SceneDelegate.swift */,
 				C99213F027D1EB0D00C5A564 /* ViewController.swift */,
 				C992141C27D1EB9C00C5A564 /* AddViewController.swift */,
+				C94F90BE27D504E50037FC98 /* BoughtViewController.swift */,
+				C94F90BA27D3CE0D0037FC98 /* DetailViewController.swift */,
 				C99213F227D1EB0D00C5A564 /* Main.storyboard */,
 				C99213F527D1EB1100C5A564 /* Assets.xcassets */,
 				C99213F727D1EB1100C5A564 /* LaunchScreen.storyboard */,
 				C99213FA27D1EB1100C5A564 /* Info.plist */,
 				C992142327D32EF700C5A564 /* Product.swift */,
+				C94F90C227D508370037FC98 /* BoughtItem.swift */,
 			);
 			path = MyWants;
 			sourceTree = "<group>";
@@ -278,8 +287,11 @@
 				C992142427D32EF700C5A564 /* Product.swift in Sources */,
 				C99213F127D1EB0D00C5A564 /* ViewController.swift in Sources */,
 				C99213ED27D1EB0D00C5A564 /* AppDelegate.swift in Sources */,
+				C94F90C327D508370037FC98 /* BoughtItem.swift in Sources */,
+				C94F90BB27D3CE0D0037FC98 /* DetailViewController.swift in Sources */,
 				C992141D27D1EB9C00C5A564 /* AddViewController.swift in Sources */,
 				C99213EF27D1EB0D00C5A564 /* SceneDelegate.swift in Sources */,
+				C94F90C027D504E50037FC98 /* BoughtViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +472,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyWants/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -487,6 +502,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyWants/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
