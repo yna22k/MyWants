@@ -10,7 +10,8 @@ import RealmSwift
 
 
 class Bought: Object{
-    @objc dynamic var imageURL: String = ""
+    @objc dynamic var imageFileName: String = ""
+    @objc dynamic var date: String = ""
     @objc dynamic var name: String = ""
     @objc dynamic var price: Int = 0
 }
